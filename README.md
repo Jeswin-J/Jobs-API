@@ -10,7 +10,6 @@ Make sure you have Python and Flask installed on your machine. You can install F
 
 ```
 pip install Flask
-
 ```
 ## Setup
 
@@ -19,21 +18,18 @@ pip install Flask
 ```
 git clone https://github.com/Jeswin-J/Jobs-API.git
 cd Jobs-API
-
 ```
 
 #### 2. Install the required dependencies.
 
 ```
 pip install -r requirements.txt
-
 ```
 
 #### 3. Run the application.
 
 ```
 python job_api.py
-
 ```
 
 The application will start, and you should see output indicating that the Flask development server is running.
@@ -41,7 +37,7 @@ The application will start, and you should see output indicating that the Flask 
 
 #### Get all jobs
 
-```http
+```
   GET /jobs
 ```
 
@@ -51,7 +47,7 @@ The application will start, and you should see output indicating that the Flask 
 
 #### Get job details
 
-```http
+```
   GET /jobs/${job_id}
 ```
 
@@ -61,7 +57,7 @@ The application will start, and you should see output indicating that the Flask 
 
 #### Get Applied Job
 
-```http
+```
   GET /applied-jobs/${user_id}
 ```
 
@@ -71,7 +67,7 @@ The application will start, and you should see output indicating that the Flask 
 
 #### Apply for a job
 
-```http
+```
   POST /apply
 ```
 
